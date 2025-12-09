@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>オーストラリア旅行ガイド</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body data-page="australia">
+    <header>
+      <div class="header-inner">
+        <div class="site-title">World Travel Guide</div>
+        <nav>
+          <ul>
+            <li><a href="index.html" data-page-link="home">トップ</a></li>
+            <li><a href="america.html" data-page-link="america">アメリカ</a></li>
+            <li><a href="italy.html" data-page-link="italy">イタリア</a></li>
+            <li>
+              <a href="australia.html" data-page-link="australia"
+                >オーストラリア</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero hero--australia">
+        <h1 class="hero-title">オーストラリア連邦</h1>
+        <p class="hero-subtitle">
+          広大な自然と近代的な都市が共存する国。コアラやカンガルーなど、日本ではなかなか見られない動物にも出会えます。
+        </p>
+      </section>
+
+      <section>
+        <h2 class="section-title">おすすめ観光地</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>シドニー</h3>
+            <p>
+              オペラハウスやハーバーブリッジがある大都市。ビーチも近く、都会と自然の両方を楽しめます。
+            </p>
+            <button class="btn btn--outline js-favorite" data-country="シドニー">
+              お気に入りに追加
+            </button>
+          </article>
+
+          <article class="card">
+            <h3>グレートバリアリーフ</h3>
+            <p>
+              世界最大級のサンゴ礁地帯。シュノーケリングやダイビングで美しい海の世界を体験できます。
+            </p>
+            <button
+              class="btn btn--outline js-favorite"
+              data-country="グレートバリアリーフ"
+            >
+              お気に入りに追加
+            </button>
+          </article>
+
+          <article class="card">
+            <h3>エアーズロック（ウルル）</h3>
+            <p>
+              オーストラリア中央部にある巨大な一枚岩。朝日や夕日に染まる姿がとても美しいです。
+            </p>
+            <button
+              class="btn btn--outline js-favorite"
+              data-country="エアーズロック"
+            >
+              お気に入りに追加
+            </button>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">有名な食べ物</h2>
+        <ul>
+          <li>フィッシュ＆チップス</li>
+          <li>ミートパイ</li>
+          <li>ラミントン（ケーキの一種）</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>© 2025 World Travel Guide</footer>
+  </body>
+</html>

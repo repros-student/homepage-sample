@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>世界旅行ガイド - トップページ</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <!-- data-page で現在ページを指定 -->
+  <body data-page="home">
+    <header>
+      <div class="header-inner">
+        <div class="site-title">World Travel Guide</div>
+        <nav>
+          <ul>
+            <li><a href="index.html" data-page-link="home">トップ</a></li>
+            <li><a href="america.html" data-page-link="america">アメリカ</a></li>
+            <li><a href="italy.html" data-page-link="italy">イタリア</a></li>
+            <li>
+              <a href="australia.html" data-page-link="australia"
+                >オーストラリア</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1 class="hero-title">ようこそ、世界旅行ガイドへ！</h1>
+        <p class="hero-subtitle">
+          このサイトでは、はじめて海外旅行に行く人のために、人気の3つの国
+          「アメリカ・イタリア・オーストラリア」 を紹介します。
+        </p>
+      </section>
+
+      <section>
+        <h2 class="section-title">紹介する国</h2>
+        <p>
+          気になる国を選んで、詳しい情報をチェックしてみましょう。おすすめの観光地や有名な食べ物も紹介しています。
+        </p>
+        <div class="card-grid">
+          <article class="card">
+            <h3>アメリカ合衆国</h3>
+            <p>
+              自由の女神やタイムズスクエアなど、映画で見るような景色がたくさん！
+              多くの都市があり、それぞれ全く違う雰囲気を楽しめます。
+            </p>
+            <a href="america.html" class="btn btn--primary">アメリカを見る</a>
+          </article>
+
+          <article class="card">
+            <h3>イタリア</h3>
+            <p>
+              ピザやパスタの本場。ローマやベネチア、フィレンツェなど、歴史と芸術の街がたくさんあります。
+            </p>
+            <a href="italy.html" class="btn btn--primary">イタリアを見る</a>
+          </article>
+
+          <article class="card">
+            <h3>オーストラリア</h3>
+            <p>
+              コアラやカンガルー、きれいなビーチなど、大自然が魅力の国です。都市と自然の両方を楽しめます。
+            </p>
+            <a href="australia.html" class="btn btn--primary"
+              >オーストラリアを見る</a
+            >
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>© 2025 World Travel Guide</footer>
+  </body>
+</html>

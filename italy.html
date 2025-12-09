@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>イタリア旅行ガイド</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body data-page="italy">
+    <header>
+      <div class="header-inner">
+        <div class="site-title">World Travel Guide</div>
+        <nav>
+          <ul>
+            <li><a href="index.html" data-page-link="home">トップ</a></li>
+            <li><a href="america.html" data-page-link="america">アメリカ</a></li>
+            <li><a href="italy.html" data-page-link="italy">イタリア</a></li>
+            <li>
+              <a href="australia.html" data-page-link="australia"
+                >オーストラリア</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero hero--italy">
+        <h1 class="hero-title">イタリア共和国</h1>
+        <p class="hero-subtitle">
+          歴史と芸術、そしておいしい料理の国。ローマ、ベネチア、フィレンツェなど、街ごとに魅力が違います。
+        </p>
+      </section>
+
+      <section>
+        <h2 class="section-title">おすすめ観光地</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>ローマ</h3>
+            <p>
+              コロッセオやトレビの泉など、古代ローマの歴史を感じられるスポットがたくさんある首都です。
+            </p>
+            <button class="btn btn--outline js-favorite" data-country="ローマ">
+              お気に入りに追加
+            </button>
+          </article>
+
+          <article class="card">
+            <h3>ベネチア</h3>
+            <p>
+              水の都として知られ、ゴンドラに乗って運河を進む体験が人気です。
+            </p>
+            <button
+              class="btn btn--outline js-favorite"
+              data-country="ベネチア"
+            >
+              お気に入りに追加
+            </button>
+          </article>
+
+          <article class="card">
+            <h3>フィレンツェ</h3>
+            <p>
+              ルネサンス芸術の中心地。街全体が美術館のような雰囲気です。
+            </p>
+            <button
+              class="btn btn--outline js-favorite"
+              data-country="フィレンツェ"
+            >
+              お気に入りに追加
+            </button>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">有名な食べ物</h2>
+        <ul>
+          <li>ピザ</li>
+          <li>パスタ</li>
+          <li>ジェラート（アイスクリーム）</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>© 2025 World Travel Guide</footer>
+  </body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>アメリカ旅行ガイド</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body data-page="america">
+    <header>
+      <div class="header-inner">
+        <div class="site-title">World Travel Guide</div>
+        <nav>
+          <ul>
+            <li><a href="index.html" data-page-link="home">トップ</a></li>
+            <li><a href="america.html" data-page-link="america">アメリカ</a></li>
+            <li><a href="italy.html" data-page-link="italy">イタリア</a></li>
+            <li>
+              <a href="australia.html" data-page-link="australia"
+                >オーストラリア</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero hero--america">
+        <h1 class="hero-title">アメリカ合衆国</h1>
+        <p class="hero-subtitle">
+          多くの州からなる広い国。ニューヨーク、ロサンゼルス、ラスベガスなど、個性豊かな都市がいっぱいです。
+        </p>
+      </section>
+
+      <section>
+        <h2 class="section-title">おすすめ観光地</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>ニューヨーク</h3>
+            <p>
+              自由の女神、セントラルパーク、タイムズスクエアなど、世界的に有名な場所が集まる街です。
+            </p>
+            <button
+              class="btn btn--outline js-favorite"
+              data-country="ニューヨーク"
+            >
+              お気に入りに追加
+            </button>
+          </article>
+
+          <article class="card">
+            <h3>グランドキャニオン</h3>
+            <p>
+              自然が作り出した巨大な渓谷。壮大な景色は一生の思い出になります。
+            </p>
+            <button
+              class="btn btn--outline js-favorite"
+              data-country="グランドキャニオン"
+            >
+              お気に入りに追加
+            </button>
+          </article>
+
+          <article class="card">
+            <h3>ハリウッド（ロサンゼルス）</h3>
+            <p>
+              映画の街として有名。ハリウッドサインやスターの手形・足形が並ぶ通りも人気です。
+            </p>
+            <button
+              class="btn btn--outline js-favorite"
+              data-country="ハリウッド"
+            >
+              お気に入りに追加
+            </button>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">有名な食べ物</h2>
+        <ul>
+          <li>ハンバーガー</li>
+          <li>ホットドッグ</li>
+          <li>ニューヨークチーズケーキ</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>© 2025 World Travel Guide</footer>
+  </body>
+</html>
