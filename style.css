@@ -68,34 +68,63 @@ main {
 
 /* ヒーローセクション */
 .hero {
-  background-color: #ffffff;
+  background-color: #1f2933;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   border-radius: 16px;
-  padding: 24px 20px;
+  padding: 40px 20px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.06);
   margin-bottom: 24px;
+  min-height: 220px;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
 }
 
 .hero-title {
   margin-top: 0;
   font-size: 24px;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.35);
 }
 
 .hero-subtitle {
   margin-bottom: 0;
-  color: #555;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 2px 6px rgba(0,0,0,0.35);
 }
 
 /* 国ごとの色バリエーション例 */
+.hero--home {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("img/newyork.jpg"),
+    url("img/italy.jpg"),
+    url("img/greatbarrierleaf.jpg");
+  background-size: 100% 100%, 33.34% 100%, 33.33% 100%, 33.33% 100%;
+  background-position: center, left center, center center, right center;
+}
+
 .hero--america {
   border-left: 6px solid #e63946;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("img/newyork.jpg");
+  background-position: center 15%;
 }
 
 .hero--italy {
   border-left: 6px solid #2a9d8f;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("img/italy.jpg");
 }
 
 .hero--australia {
   border-left: 6px solid #f4a261;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("img/greatbarrierleaf.jpg");
 }
 
 /* カードレイアウト */
