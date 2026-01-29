@@ -182,6 +182,37 @@ main {
   margin: 0 0 8px;
 }
 
+/* 食べ物の画像リスト */
+.food-grid {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+.food-card {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.04);
+  display: flex;
+  flex-direction: column;
+}
+
+.food-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  display: block;
+}
+
+.food-name {
+  padding: 10px 12px;
+  font-weight: 600;
+}
+
 /* ボタン */
 .btn {
   display: inline-block;
