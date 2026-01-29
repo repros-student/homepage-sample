@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>お気に入り一覧</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body data-page="favorites">
+    <header>
+      <div class="header-inner">
+        <div class="site-title">World Travel Guide</div>
+        <nav>
+          <ul>
+            <li><a href="index.html" data-page-link="home">トップ</a></li>
+            <li><a href="america.html" data-page-link="america">アメリカ</a></li>
+            <li><a href="italy.html" data-page-link="italy">イタリア</a></li>
+            <li>
+              <a href="australia.html" data-page-link="australia"
+                >オーストラリア</a
+              >
+            </li>
+            <li>
+              <a href="favorites.html" data-page-link="favorites"
+                >お気に入り</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero hero--favorites">
+        <h1 class="hero-title">お気に入り一覧</h1>
+        <p class="hero-subtitle">
+          追加した観光地がここに表示されます。
+        </p>
+      </section>
+
+      <section>
+        <h2 class="section-title">お気に入りスポット</h2>
+        <p id="favorite-empty" class="empty-message">
+          まだお気に入りがありません。各国ページから追加してみましょう。
+        </p>
+        <ul id="favorite-list" class="favorite-list"></ul>
+      </section>
+    </main>
+
+    <footer>© 2025 World Travel Guide</footer>
+  </body>
+</html>
