@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const currentPage = document.body.dataset.page;
   if (currentPage) {
     const activeLink = document.querySelector(
-      `a[data-page-link="${currentPage}"]`
+      `a[data-page-link="${currentPage}"]`,
     );
     if (activeLink) {
       activeLink.classList.add("nav-link--active");
