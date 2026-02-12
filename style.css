@@ -276,6 +276,88 @@ main {
   margin-top: 3px;
 }
 
+/* 旅行情報セクション */
+.season-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.season-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.04);
+}
+
+.season-card h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.season-card p {
+  margin: 0;
+}
+
+.model-course {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+  display: grid;
+  gap: 12px;
+}
+
+.model-step {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 14px 16px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.04);
+}
+
+.model-step h3 {
+  margin-top: 0;
+  margin-bottom: 6px;
+  font-size: 17px;
+}
+
+.model-step p {
+  margin: 0;
+}
+
+.phrase-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.phrase-item {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 12px 14px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.04);
+  border-left: 4px solid #00a8cc;
+}
+
+.phrase-original {
+  margin: 0 0 4px;
+  font-weight: 700;
+}
+
+.phrase-meaning {
+  margin: 0;
+  color: #4b5563;
+}
+
+.phrase-note {
+  margin: 10px 0 0;
+  font-size: 13px;
+  color: #6b7280;
+}
+
 /* 食べ物の画像リスト */
 .food-grid {
   list-style: none;
