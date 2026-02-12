@@ -182,6 +182,100 @@ main {
   margin: 0 0 8px;
 }
 
+/* 比較表 */
+.table-wrap {
+  margin-top: 12px;
+  overflow-x: auto;
+}
+
+.compare-table {
+  width: 100%;
+  min-width: 680px;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.04);
+}
+
+.compare-table th,
+.compare-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+  vertical-align: top;
+}
+
+.compare-table thead th {
+  background-color: #e6f4fb;
+  color: #0b4f6c;
+  font-weight: 700;
+}
+
+.compare-table tbody tr:last-child th,
+.compare-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* 予算 */
+.budget-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.budget-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.04);
+}
+
+.budget-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.budget-card ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.budget-total {
+  margin-top: 12px;
+  margin-bottom: 0;
+  font-weight: 700;
+  color: #0b4f6c;
+}
+
+/* チェックリスト */
+.checklist {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+  display: grid;
+  gap: 10px;
+}
+
+.checklist li {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.checklist label {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.checklist input[type="checkbox"] {
+  margin-top: 3px;
+}
+
 /* 食べ物の画像リスト */
 .food-grid {
   list-style: none;
